@@ -263,6 +263,9 @@ background: linear-gradient(to right, #EC5B22 0%, #214CE5 94%);
     width: 300%;
     margin-left: 25px;
   }
+#contenedor {
+  margin-left: 0px;
+}
 }
 
 /*otros*/
