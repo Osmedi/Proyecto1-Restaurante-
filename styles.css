@@ -125,6 +125,7 @@ body {
   width: 97%;
   padding: 20px;
   transition:0.5s;
+  cursor: pointer;
 }
 .card:hover{
   background-color: #bbbbbb5e;
@@ -195,6 +196,7 @@ body {
 #redes p{
   font-size: 18px;
 }
+/*resposive*/
 @media screen and (max-width:800px ){
   .card{
     width: 87%;
@@ -235,6 +237,48 @@ body {
     font-size: 16px;
     
   }
+}
+/*Tegnologias usadas*/
+#contenedor {
+  margin-left: -45px;
+  width: 25%;
+  height: auto;
+  display: inline-block;
+}
+#contenedor .htmlycss{
+  width: 210%;
+  margin-left: 100px;
+}
+#contenedor h4{
+  text-align: center;
+  font-weight: 100;
+  background: #EC5B22;
+background: linear-gradient(to right, #EC5B22 0%, #214CE5 94%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+
+}
+@media screen and (max-width:800px ){
+  #contenedor .htmlycss{
+    width: 300%;
+    margin-left: 25px;
+  }
+}
+
+/*otros*/
+.vercodigo{
+  display: inline-block;
+  margin-left: 67%;
+}
+.vercodigo p,a{
+  display: inline-block;
+}
+.vercodigo a {
+  color:black ;
+  font-size: 30px;
+}
+.vercodigo p{
+  font-weight: 100;
 }
 footer {
   background-color: #333;
